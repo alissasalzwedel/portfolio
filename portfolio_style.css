@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    background-color: #fdd4b9;
+    font-family: 'beattingvileregular', serif;
+}
+header{
+    font-family: 'beattingvileregular', serif;
+    background-color: #f39070;
+    position: relative;
+    color: #f5c7aa;
+    filter: drop-shadow(5px 5px 5px rgb(66, 44, 39));
+    margin: 0;
+    z-index: 1;
+}
+.menu{
+    position: absolute;
+    width: 20%;
+    background-color: transparent;
+    padding: 1rem;
+    right: 0;
+    top: 0;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: none;
+}
+nav a{
+    font-size: 4rem;
+    text-decoration: none;
+    color: #f5c7aa;
+    display: block;
+    padding: 1rem 2rem;
+    text-align: right;
+    border: 1px solid #f5c7aa;
+    background-color: #f39070;
+}
+@font-face {
+    font-family: 'beattingvileregular';
+    src: url('beattingvile-webfont.woff2') format('woff2'),
+         url('beattingvile-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-size: 6rem;
+    text-align: center;
+    color: #862a0e;
+}
+.logo{
+    color: #f5c7aa;
+    margin: 0;
+    padding: 1rem;
+    text-align: left;
+}
+.show{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #f5c7aa;
+}
+.facebook, .insta, .email{
+    width: 60%;
+    padding: .5rem;
+    justify-content: center;
+}
+footer{
+    margin: 2.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-family: 'Avenir';
+    font-weight: bold;
+    font-size: xx-large;
+}
+.main_img{
+    padding: 0 1rem 1rem 1rem;
+    width: 80%;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+.cvft_img{
+    width: 100%;
+}
+.intro p{
+    font-family: 'Avenir';
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 0;
+}
+.gallery_img{
+    width: 45%;
+    height: 45%;
+    margin: .5rem;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.intro a{
+    color: #862a0e;
+    font-weight: bolder;
+    font-family: 'Avenir';
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+.intro div{
+    padding: 1rem;
+}
+.intro iframe{
+    width: 24rem;
+    height: 10rem;
+}
+@media (min-width: 900px){
+    .menu{
+        display: none;
+    }
+    nav{
+        display: flex;
+        position: absolute;
+        top: 12.5%;
+        right: 3%;
+    }
+    nav a{
+        border: none;
+    }
+    header{
+        display: flex;
+    }
+    .logo{
+        margin: 0 1rem;
+    }
+    .facebook, .insta, .email{
+        width: 20%;
+        padding: .5rem;
+        justify-content: center;
+    }
+    .portfolio_top{
+        display: flex;
+    }
+    .intro p{
+        text-align: left;
+        margin: 0 1rem;
+    }
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery_img{
+        width: 18%;
+    }
+    .main_container{
+        width: 150%;
+    }
+    .intro{
+        width: 140%;
+    }
+}

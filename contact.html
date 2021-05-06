@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial=1.0">
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <title>Alissa Salzwedel</title>
+        <script src="toggle-nav.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="home.html"><p class="logo">Alissa Salzwedel</p></a>
+            <nav class="toggle-nav">
+                <a href="resume.html">interactive resume</a>
+                <a href="new_portfolio.html">portfolio</a>
+                <a href="contact.html">contact</a>
+            </nav>
+            <img class="menu" src="images/menu.png" alt="menu bar" onclick="toggleNav()">
+        </header>
+        <main>
+            <div class="contact_form">
+                <div class="contact_label">
+                    <p>contact</p>
+                </div> 
+                    <form>
+                        <label for="name">name</label>
+                            <input type="text" id="name" name="user-name">
+                        <label for="email">email</label>
+                            <input type="email" id="email" name="user-email">
+                        <label for="message">message</label>
+                            <textarea id="message" name="user-message" rows="4" cols="51"></textarea>
+                        <div class="submit_button">
+                            <input type="submit" value="submit">
+                        </div>
+                    </form>           
+                </div>
+        </main>
+        <footer>
+            <a href="https://www.instagram.com/artxalissa/" target="blank"><img class="insta" src="images/insta.png" alt="instagram logo."></a>
+            <a href="https://www.facebook.com/artxalissa" target="blank"><img class="facebook" src="images/facebook.png" alt="facebook logo."></a>
+            <a href="mailto:artxalissa@gmail.com"><img class="email" src="images/email.png" alt="email logo."></a>
+        </footer>
+    </body>
+</html>
