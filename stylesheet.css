@@ -261,7 +261,7 @@ input[type="submit"]{
     border-radius:  .5rem .5rem 0 0;
     color: #862a0e;
     font-family: 'Avenir';
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     font-size: large;
     font-weight: bold;
 }
