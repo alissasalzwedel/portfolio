@@ -18,7 +18,7 @@ header p{
 }
 .menu{
     position: absolute;
-    width: 20%;
+    width: 6rem;
     background-color: transparent;
     padding: 1rem;
     right: 0;
@@ -59,8 +59,9 @@ p{
 .logo{
     color: #f5c7aa;
     margin: 0;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: left;
+    font-size: 5rem;
 }
 .show{
     display: block;
@@ -301,6 +302,7 @@ input[type="submit"]{
     }
     .logo{
         margin: 0 1rem;
+        font-size: 6rem;
     }
     .opener_dt{
         display: inline-flex;
