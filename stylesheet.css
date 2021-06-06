@@ -284,6 +284,11 @@ input[type="submit"]{
     background-color: #862a0e;
     color: #e4805f;
 }
+@media (max-width: 900px){
+    .logo{
+        font-size: 4rem;
+    }
+}
 @media (min-width: 1200px){
     .menu{
         display: none;
