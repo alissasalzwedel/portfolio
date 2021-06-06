@@ -40,6 +40,9 @@ nav a{
     border: 1px solid #f5c7aa;
     background-color: #f39070;
 }
+.socials{
+    display: flex;
+}
 @font-face {
     font-family: 'beattingvileregular';
     src: url('beattingvile-webfont.woff2') format('woff2'),
