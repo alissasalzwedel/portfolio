@@ -82,7 +82,7 @@ button{
     filter: drop-shadow(5px 5px 5px rgb(66, 44, 39));
 }
 .facebook, .insta, .email{
-    height: 7rem;
+    height: 3rem;
     width: unset;
     padding: .5rem;
     justify-content: center;
@@ -283,7 +283,7 @@ input[type="submit"]{
     background-color: #862a0e;
     color: #e4805f;
 }
-@media (min-width: 900px){
+@media (min-width: 1200px){
     .menu{
         display: none;
     }
@@ -333,7 +333,7 @@ input[type="submit"]{
         
     }
     .facebook, .insta, .email{
-        height: 3rem;
+        height: 7rem;
         width: unset;
         padding: .5rem 4rem;
         justify-content: center;
