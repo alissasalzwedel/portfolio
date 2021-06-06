@@ -90,6 +90,9 @@ button{
     padding: .5rem;
     justify-content: center;
 }
+.socials{
+    height: 100%;
+}
 .resume, .portfolio{
     display: flex;
     justify-content: center;
@@ -338,7 +341,6 @@ input[type="submit"]{
     .facebook, .insta, .email{
         width: 20%;
         padding: .5rem;
-        max-height: 20%;
         justify-content: center;
     }
     .contact_label{
